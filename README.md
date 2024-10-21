@@ -38,3 +38,6 @@ Isi file `KategoriController.php`:
 
 Isi file `BukuController.php`:
 ![Screenshot tokobuku-api](images/13.png)
+
+3. Menambahkan Route API
+   ![Screenshot tokobuku-api](images/14.png)
