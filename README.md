@@ -58,28 +58,51 @@ Testing API dengan Postman
         • Method: POST
         • URL: http://localhost:8000/api/kategoris
         • Body :
-      ![Screenshot tokobuku-api](images/17.png)
+
+    ![Screenshot tokobuku-api](images/17.png)
 
         GET Semua Buku
         • Method: GET
         • URL: http://localhost:8000/api/bukus
         • Klik Send.
-      ![Screenshot tokobuku-api](images/18.png)
+
+    ![Screenshot tokobuku-api](images/18.png)
 
         POST Tambah Buku Baru
-      ![Screenshot tokobuku-api](images/19.png)
+
+    ![Screenshot tokobuku-api](images/19.png)
 
         GET Buku Berdasarkan ID
         • Method: GET
         • URL: http://localhost:8000/api/bukus/1
         • Klik Send.
-      ![Screenshot tokobuku-api](images/20.png)
+
+    ![Screenshot tokobuku-api](images/20.png)
 
         PUT Update Data Buku
-      ![Screenshot tokobuku-api](images/21.png)
+
+    ![Screenshot tokobuku-api](images/21.png)
 
         DELETE Hapus Buku
          • Method: DELETE
          • URL: http://localhost:8000/api/bukus/1
          • Klik Send.
-      ![Screenshot tokobuku-api](images/22.png)
+
+    ![Screenshot tokobuku-api](images/22.png)
+
+Tugas
+
+1. Tambahkan Validasi:
+   o Nama buku tidak boleh kosong.
+   o Harga minimal Rp 1.000.
+   ![Screenshot tokobuku-api](images/23.png)
+   ![Screenshot tokobuku-api](images/24.png)
+
+2. Rancang Endpoint Baru:
+   ![Screenshot tokobuku-api](images/25.png)
+   ![Screenshot tokobuku-api](images/26.png)
+
+3. Uji API Secara Publik:
+   o Gunakan ngrok atau sejenisnya untuk membuka API ke internet.
+   https://d405-114-125-100-60.ngrok-free.app/api/bukus
+   ![Screenshot tokobuku-api](images/27.png)
