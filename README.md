@@ -41,3 +41,31 @@ Isi file `BukuController.php`:
 
 3. Menambahkan Route API
    ![Screenshot tokobuku-api](images/14.png)
+
+Testing API dengan Postman
+
+1. Jalankan Server Laravel:
+   ![Screenshot tokobuku-api](images/15.png)
+
+2. Testing endpoint menggunakan Postman:
+   A. GET Semua Kategori
+   • Method: GET
+   • URL: http://localhost:8000/api/kategoris
+   • Klik Send untuk melihat hasil.
+   ![Screenshot tokobuku-api](images/16.png)
+
+    B. POST Tambah Kategori Baru
+    • Method: POST
+    • URL: http://localhost:8000/api/kategoris
+    • Body :
+    ![Screenshot tokobuku-api](images/17.png)
+
+    GET Semua Buku
+    • Method: GET
+    • URL: http://localhost:8000/api/bukus
+    • Klik Send.
+    ![Screenshot tokobuku-api](images/18.png)
+
+    POST Tambah Buku Baru
+    ![Screenshot tokobuku-api](images/19.png)
+   
