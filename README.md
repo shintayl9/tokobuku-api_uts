@@ -68,4 +68,12 @@ Testing API dengan Postman
 
     POST Tambah Buku Baru
     ![Screenshot tokobuku-api](images/19.png)
-   
+
+    GET Buku Berdasarkan ID
+    • Method: GET
+    • URL: http://localhost:8000/api/bukus/1
+    • Klik Send.
+    ![Screenshot tokobuku-api](images/20.png)
+
+    PUT Update Data Buku
+    ![Screenshot tokobuku-api](images/21.png)
