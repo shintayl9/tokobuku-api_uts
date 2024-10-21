@@ -44,36 +44,42 @@ Isi file `BukuController.php`:
 
 Testing API dengan Postman
 
-1. Jalankan Server Laravel:
-   ![Screenshot tokobuku-api](images/15.png)
+1.  Jalankan Server Laravel:
+    ![Screenshot tokobuku-api](images/15.png)
 
-2. Testing endpoint menggunakan Postman:
-   A. GET Semua Kategori
-   • Method: GET
-   • URL: http://localhost:8000/api/kategoris
-   • Klik Send untuk melihat hasil.
-   ![Screenshot tokobuku-api](images/16.png)
-
-    B. POST Tambah Kategori Baru
-    • Method: POST
+2.  Testing endpoint menggunakan Postman:
+    A. GET Semua Kategori
+    • Method: GET
     • URL: http://localhost:8000/api/kategoris
-    • Body :
-    ![Screenshot tokobuku-api](images/17.png)
+    • Klik Send untuk melihat hasil.
+    ![Screenshot tokobuku-api](images/16.png)
 
-    GET Semua Buku
-    • Method: GET
-    • URL: http://localhost:8000/api/bukus
-    • Klik Send.
-    ![Screenshot tokobuku-api](images/18.png)
+        B. POST Tambah Kategori Baru
+        • Method: POST
+        • URL: http://localhost:8000/api/kategoris
+        • Body :
+      ![Screenshot tokobuku-api](images/17.png)
 
-    POST Tambah Buku Baru
-    ![Screenshot tokobuku-api](images/19.png)
+        GET Semua Buku
+        • Method: GET
+        • URL: http://localhost:8000/api/bukus
+        • Klik Send.
+      ![Screenshot tokobuku-api](images/18.png)
 
-    GET Buku Berdasarkan ID
-    • Method: GET
-    • URL: http://localhost:8000/api/bukus/1
-    • Klik Send.
-    ![Screenshot tokobuku-api](images/20.png)
+        POST Tambah Buku Baru
+      ![Screenshot tokobuku-api](images/19.png)
 
-    PUT Update Data Buku
-    ![Screenshot tokobuku-api](images/21.png)
+        GET Buku Berdasarkan ID
+        • Method: GET
+        • URL: http://localhost:8000/api/bukus/1
+        • Klik Send.
+      ![Screenshot tokobuku-api](images/20.png)
+
+        PUT Update Data Buku
+      ![Screenshot tokobuku-api](images/21.png)
+
+        DELETE Hapus Buku
+         • Method: DELETE
+         • URL: http://localhost:8000/api/bukus/1
+         • Klik Send.
+      ![Screenshot tokobuku-api](images/22.png)
